@@ -1,8 +1,8 @@
 import Card from "react-bootstrap/Card";
 
-import { useState } from "react";
-import ButtonGroup from "react-bootstrap/ButtonGroup";
-import ToggleButton from "react-bootstrap/ToggleButton";
+// import { useState } from "react";
+// import ButtonGroup from "react-bootstrap/ButtonGroup";
+// import ToggleButton from "react-bootstrap/ToggleButton";
 
 import fantasy from "../data/fantasy.json";
 import history from "../data/history.json";
@@ -66,6 +66,7 @@ class AllTheBooks extends Component {
           </Button>
         </Container>
 
+        {/* NON POSSO UTILIZZARLO IN UNA CLASSE */}
         {/* <Container>
           <ButtonGroup className="mb-2">
             <ToggleButton
