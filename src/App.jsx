@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <MyNav brandName="React-MyBooks" />
-      <Welcome sottoTitolo="Qui non troverai nessuna storia BANALE!" />
+      <Welcome sottoTitolo="Qui non troverai nessuna storia BANALE!" emote="👇" istruzioni="Seleziona il genere che vuoi visualizzare:" />
       <AllTheBooks />
       <MyFooter
         brandName="React-MyBooks"

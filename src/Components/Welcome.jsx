@@ -5,7 +5,11 @@ const Welcome = function (props) {
     <Alert variant="success" className="text-center">
       <h2>Welcome</h2>
       <p>{props.sottoTitolo}</p>
-      <p>{props.istruzioni}</p>
+      <p>
+        <span className="sizeFinger me-3">{props.emote}</span>
+        {props.istruzioni}
+        <span className="sizeFinger ms-3">{props.emote}</span>
+      </p>
     </Alert>
   );
 };

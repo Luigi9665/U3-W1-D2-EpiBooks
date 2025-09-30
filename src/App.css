@@ -3,7 +3,25 @@ body {
 }
 
 .book-title {
-  white-space: nowrap; /* non andare a capo */
-  overflow: hidden; /* nascondi il testo che esce */
+  white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.sizeFinger {
+  display: inline-block;
+  transition: transform 0.6s;
+  animation: pulse-animation 1s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
